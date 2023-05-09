@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Dependencia </title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<body>
+	<div class="container">
+		<div class="box">
+			<a href="/Dependecia/002" class="button">002</a>
+			<a href="/Dependecia/001" class="button">001</a>
+			<a href="/Dependecia/003" class="button">003</a>
+		</div>
+		<div class="box">
+			<p th:text="'abreviatura: , ' + ${starDirectorioDTO.abreviatura} + '!'" />
+			<p th:text="'codigo: ' + ${starDirectorioDTO.codigo} " />
+			<p th:text="'dependencia: ' + ${starDirectorioDTO.dependencia} " />
+			<p th:text="'id:  ' + ${starDirectorioDTO.id} " />
+			<p th:text="'nombre: ' + ${starDirectorioDTO.nombre} " />telefono
+			<p th:text="'tipo: ' + ${starDirectorioDTO.tipo} " />
+		</div>
+	</div>
+	<br>
+	<br>
+</body>
+
+</html>
